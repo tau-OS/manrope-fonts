@@ -11,6 +11,8 @@ Source2:        LICENSE.txt
 BuildArch:      noarch
 
 %description
+Manrope – modern geometric sans-serif, packaged for use in tauOS
+
 This package contains the non-variable font version of the Manrope font.
 
 %prep
@@ -36,5 +38,8 @@ install -pm 0644 %SOURCE1 licenses/LICENSE
 
  
 %changelog
+* Sat May 14 2022 Jamie Murphy <jamie@fyralabs.com> - 1-1
+- Fix specfile
+
 * Sat May 14 2022 Lains <lainsce@airmail.cc> - 1-1
 - Initial release
