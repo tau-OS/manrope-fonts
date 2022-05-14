@@ -7,7 +7,7 @@ URL:            https://manropefont.com/
 
 Source0:        https://manropefont.com/manrope.zip
 Source1:        README.md
-Source2:        LICENSE.txt
+Source2:        LICENSE
 BuildArch:      noarch
 
 %description
