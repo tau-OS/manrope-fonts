@@ -23,7 +23,6 @@ This package contains the non-variable font version of the Manrope font.
 %install
 install -d %{buildroot}%{_datadir}/share/fonts/manrope
 install -pm 644 fonts/otf/*.otf %{buildroot}%{_datadir}/share/fonts/manrope/
-fc-cache -f -v
 
 install -pm 0644 %SOURCE1 README.md
 
