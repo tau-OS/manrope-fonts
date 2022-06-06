@@ -34,10 +34,13 @@ install -pm 0644 %SOURCE1 licenses/LICENSE
 %doc README.md
 %doc documentation.html
 %license licenses/LICENSE
-%{_datadir}/fonts/OTF/*.otf
+%{_datadir}/share/fonts/manrope/*.otf
 
  
 %changelog
+* Mon Jun 06 2022 Lains <lainsce@airmail.cc> - 1-2
+- Fix font installation place
+
 * Sat May 14 2022 Jamie Murphy <jamie@fyralabs.com> - 1-1
 - Fix specfile
 
