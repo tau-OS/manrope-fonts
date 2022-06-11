@@ -1,7 +1,7 @@
 Summary:        A modernist sans serif font
 Name:           tau-manrope-fonts
 Version:        1
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        OFL
 URL:            https://manropefont.com/
 
@@ -21,8 +21,8 @@ This package contains the non-variable font version of the Manrope font.
 %build
 
 %install
-install -d %{buildroot}%{_datadir}/share/fonts/manrope
-install -pm 644 fonts/otf/*.otf %{buildroot}%{_datadir}/share/fonts/manrope/
+install -d %{buildroot}%{_datadir}/fonts/OTF
+install -pm 644 fonts/otf/*.otf %{buildroot}%{_datadir}/fonts/OTF/
 
 install -pm 0644 %SOURCE1 README.md
 
@@ -34,13 +34,10 @@ install -pm 0644 %SOURCE1 licenses/LICENSE
 %doc README.md
 %doc documentation.html
 %license licenses/LICENSE
-%{_datadir}/share/fonts/manrope/*.otf
+%{_datadir}/fonts/OTF/*.otf
 
  
 %changelog
-* Mon Jun 06 2022 Lains <lainsce@airmail.cc> - 1-2
-- Fix font installation place
-
 * Sat May 14 2022 Jamie Murphy <jamie@fyralabs.com> - 1-1
 - Fix specfile
 
