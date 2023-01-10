@@ -1,5 +1,5 @@
-project "tau-manrope-fonts" {
+project "pkg" {
     rpm {
-        spec = "tau-manrope-fonts.spec"
+        spec = "manrope-fonts.spec"
     }
 }
